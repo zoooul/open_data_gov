@@ -1,0 +1,101 @@
+id,name,url,category,context
+source-001,GovData,https://data.gov.de/,1. Zentrale Einstiegsportale und weltweite Portalverzeichnisse,"Deutschland | Übergreifender Datenkatalog für Bund, Länder und Kommunen"
+source-002,data.europa.eu,https://data.europa.eu/,1. Zentrale Einstiegsportale und weltweite Portalverzeichnisse,EU/Europa | Europäische Datenkataloge und EU-Institutionen
+source-003,Dateno Registry,https://dateno.io/registry/browse/,1. Zentrale Einstiegsportale und weltweite Portalverzeichnisse,Weltweit | Verzeichnis zahlreicher Datenkataloge
+source-004,DataPortals.org,https://www.dataportals.org/,1. Zentrale Einstiegsportale und weltweite Portalverzeichnisse,Weltweit | Internationales Verzeichnis von Open-Data-Portalen
+source-005,Data.gov,https://data.gov/,1. Zentrale Einstiegsportale und weltweite Portalverzeichnisse,USA | Amerikanischer Datenkatalog
+source-006,Google Dataset Search,https://datasetsearch.research.google.com/,1. Zentrale Einstiegsportale und weltweite Portalverzeichnisse,Weltweit | Suchmaschine für Datensätze
+source-007,Atlas Data Portals,https://atlas.co/data-portals/,1. Zentrale Einstiegsportale und weltweite Portalverzeichnisse,Weltweit | Übersicht geografischer und staatlicher Datenportale
+source-008,Baden-Württemberg,https://www.daten-bw.de/,2. Deutschland: Bundesländer,daten.bw
+source-009,Bayern,https://open.bydata.de/,2. Deutschland: Bundesländer,open.bydata
+source-010,Berlin,https://daten.berlin.de/,2. Deutschland: Bundesländer,Datenportal Berlin
+source-011,Brandenburg,https://datenadler.de/,2. Deutschland: Bundesländer,Datenadler
+source-012,Bremen,https://www.transparenz.bremen.de/,2. Deutschland: Bundesländer,Transparenzportal Bremen
+source-013,Hamburg,https://transparenz.hamburg.de/,2. Deutschland: Bundesländer,Transparenzportal Hamburg
+source-014,Hessen,https://opendata.hessen.de/,2. Deutschland: Bundesländer,Open Data Hessen
+source-015,Mecklenburg-Vorpommern,https://www.geoportal-mv.de/,2. Deutschland: Bundesländer,Geoportal MV
+source-016,Niedersachsen,https://www.geodaten.niedersachsen.de/,2. Deutschland: Bundesländer,Geodaten Niedersachsen
+source-017,Nordrhein-Westfalen,https://open.nrw/,2. Deutschland: Bundesländer,Open.NRW
+source-018,Rheinland-Pfalz,https://daten.rlp.de/,2. Deutschland: Bundesländer,Datenportal Rheinland-Pfalz
+source-019,Saarland,https://www.saarland.de/,2. Deutschland: Bundesländer,Landesportal / Einstieg
+source-020,Sachsen,https://www.opendata.sachsen.de/,2. Deutschland: Bundesländer,Open Data Sachsen
+source-021,Sachsen-Anhalt,https://metaver.de/,2. Deutschland: Bundesländer,METAVER (Metadaten- und Geoinformationen)
+source-022,Schleswig-Holstein,https://opendata.schleswig-holstein.de/,2. Deutschland: Bundesländer,Open Data Schleswig-Holstein
+source-023,Thüringen,https://www.geoportal-th.de/,2. Deutschland: Bundesländer,Geoportal Thüringen
+source-024,Leipzig,https://opendata.leipzig.de/de/,3. Deutschland: Städte und Kommunen,Sachsen
+source-025,Dresden,https://opendata.dresden.de/,3. Deutschland: Städte und Kommunen,Sachsen
+source-026,Chemnitz,https://portal-chemnitz.opendata.arcgis.com/,3. Deutschland: Städte und Kommunen,Sachsen
+source-027,Jena,https://opendata.jena.de/,3. Deutschland: Städte und Kommunen,Thüringen
+source-028,München,https://opendata.muenchen.de/,3. Deutschland: Städte und Kommunen,Bayern
+source-029,Stuttgart,https://opendata.stuttgart.de/,3. Deutschland: Städte und Kommunen,Baden-Württemberg
+source-030,Köln,https://offenedaten-koeln.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-031,Düsseldorf,https://opendata.duesseldorf.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-032,Dortmund,https://opendata.dortmund.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-033,Bonn,https://opendata.bonn.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-034,Wuppertal,https://www.offenedaten-wuppertal.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-035,Bochum,https://www.bochum.de/opendata,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-036,Aachen,https://offenedaten.aachen.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-037,Gelsenkirchen,https://opendata.gelsenkirchen.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-038,Münster,https://opendata.stadt-muenster.de/,3. Deutschland: Städte und Kommunen,Nordrhein-Westfalen
+source-039,Frankfurt am Main,https://offenedaten.frankfurt.de/,3. Deutschland: Städte und Kommunen,Hessen
+source-040,Karlsruhe,https://transparenz.karlsruhe.de/,3. Deutschland: Städte und Kommunen,Baden-Württemberg
+source-041,Ulm,https://daten.ulm.de/,3. Deutschland: Städte und Kommunen,Baden-Württemberg
+source-042,Freiburg,https://fritz.freiburg.de/,3. Deutschland: Städte und Kommunen,Baden-Württemberg
+source-043,Halle (Saale),https://halle.de/verwaltung-stadtrat/stadtverwaltung/online-angebote/open-data-portal,3. Deutschland: Städte und Kommunen,Sachsen-Anhalt
+source-044,Rostock,https://www.opendata-hro.de/,3. Deutschland: Städte und Kommunen,Mecklenburg-Vorpommern
+source-045,Potsdam,https://opendata.potsdam.de/,3. Deutschland: Städte und Kommunen,Brandenburg
+source-046,Österreich,https://www.data.gv.at/,4. Europa: nationale Open-Data-Portale,
+source-047,Schweiz,https://opendata.swiss/,4. Europa: nationale Open-Data-Portale,
+source-048,Frankreich,https://www.data.gouv.fr/,4. Europa: nationale Open-Data-Portale,
+source-049,Niederlande,https://data.overheid.nl/,4. Europa: nationale Open-Data-Portale,
+source-050,Belgien,https://data.gov.be/,4. Europa: nationale Open-Data-Portale,
+source-051,Luxemburg,https://data.public.lu/,4. Europa: nationale Open-Data-Portale,
+source-052,Italien,https://www.dati.gov.it/,4. Europa: nationale Open-Data-Portale,
+source-053,Spanien,https://datos.gob.es/,4. Europa: nationale Open-Data-Portale,
+source-054,Portugal,https://dados.gov.pt/,4. Europa: nationale Open-Data-Portale,
+source-055,Polen,https://dane.gov.pl/,4. Europa: nationale Open-Data-Portale,
+source-056,Tschechien,https://data.gov.cz/,4. Europa: nationale Open-Data-Portale,
+source-057,Dänemark,https://www.opendata.dk/,4. Europa: nationale Open-Data-Portale,
+source-058,Schweden,https://www.dataportal.se/,4. Europa: nationale Open-Data-Portale,
+source-059,Norwegen,https://data.norge.no/,4. Europa: nationale Open-Data-Portale,
+source-060,Finnland,https://www.avoindata.fi/,4. Europa: nationale Open-Data-Portale,
+source-061,Estland,https://avaandmed.eesti.ee/,4. Europa: nationale Open-Data-Portale,
+source-062,Lettland,https://data.gov.lv/,4. Europa: nationale Open-Data-Portale,
+source-063,Litauen,https://data.gov.lt/,4. Europa: nationale Open-Data-Portale,
+source-064,Irland,https://data.gov.ie/,4. Europa: nationale Open-Data-Portale,
+source-065,Vereinigtes Königreich,https://www.data.gov.uk/,4. Europa: nationale Open-Data-Portale,
+source-066,Griechenland,https://data.gov.gr/,4. Europa: nationale Open-Data-Portale,
+source-067,Kroatien,https://data.gov.hr/,4. Europa: nationale Open-Data-Portale,
+source-068,Rumänien,https://data.gov.ro/,4. Europa: nationale Open-Data-Portale,
+source-069,Slowakei,https://data.gov.sk/,4. Europa: nationale Open-Data-Portale,
+source-070,Slowenien,https://podatki.gov.si/,4. Europa: nationale Open-Data-Portale,
+source-071,Ukraine,https://data.gov.ua/,4. Europa: nationale Open-Data-Portale,
+source-072,Kanada,https://open.canada.ca/,5. Weltweite staatliche Datenportale,
+source-073,Australien,https://data.gov.au/,5. Weltweite staatliche Datenportale,
+source-074,Neuseeland,https://www.data.govt.nz/,5. Weltweite staatliche Datenportale,
+source-075,Singapur,https://data.gov.sg/,5. Weltweite staatliche Datenportale,
+source-076,Japan,https://www.data.go.jp/,5. Weltweite staatliche Datenportale,
+source-077,Südkorea,https://www.data.go.kr/,5. Weltweite staatliche Datenportale,
+source-078,Indien,https://www.data.gov.in/,5. Weltweite staatliche Datenportale,
+source-079,Hongkong,https://data.gov.hk/,5. Weltweite staatliche Datenportale,
+source-080,Taiwan,https://data.gov.tw/,5. Weltweite staatliche Datenportale,
+source-081,Brasilien,https://dados.gov.br/,5. Weltweite staatliche Datenportale,
+source-082,Argentinien,https://datos.gob.ar/,5. Weltweite staatliche Datenportale,
+source-083,Chile,https://datos.gob.cl/,5. Weltweite staatliche Datenportale,
+source-084,Kolumbien,https://www.datos.gov.co/,5. Weltweite staatliche Datenportale,
+source-085,Mexiko,https://datos.gob.mx/,5. Weltweite staatliche Datenportale,
+source-086,Uruguay,https://catalogodatos.gub.uy/,5. Weltweite staatliche Datenportale,
+source-087,Marokko,https://www.data.gov.ma/,5. Weltweite staatliche Datenportale,
+source-088,Tunesien,https://www.data.gov.tn/,5. Weltweite staatliche Datenportale,
+source-089,Vereinigte Arabische Emirate,https://bayanat.ae/,5. Weltweite staatliche Datenportale,
+source-090,Thailand,https://data.go.th/,5. Weltweite staatliche Datenportale,
+source-091,World Bank Open Data,https://data.worldbank.org/,6. Internationale Organisationen und Statistikportale,"Wirtschaft, Entwicklung, Gesundheit"
+source-092,UNdata,https://data.un.org/,6. Internationale Organisationen und Statistikportale,"Bevölkerung, Handel, Bildung, Umwelt"
+source-093,OECD Data Explorer,https://data-explorer.oecd.org/,6. Internationale Organisationen und Statistikportale,"Beschäftigung, Bildung, Wirtschaft"
+source-094,WHO Global Health Observatory,https://www.who.int/data/gho,6. Internationale Organisationen und Statistikportale,Gesundheitsindikatoren
+source-095,Humanitarian Data Exchange,https://data.humdata.org/,6. Internationale Organisationen und Statistikportale,"Humanitäre Lage, Krisen, Infrastruktur"
+source-096,Our World in Data,https://ourworldindata.org/,6. Internationale Organisationen und Statistikportale,"Forschung, Gesundheit, Umwelt"
+source-097,FAOSTAT,https://www.fao.org/faostat/,6. Internationale Organisationen und Statistikportale,Landwirtschaft und Ernährung
+source-098,IMF Data,https://data.imf.org/,6. Internationale Organisationen und Statistikportale,Finanzen und Makroökonomie
+source-099,GBIF,https://www.gbif.org/,6. Internationale Organisationen und Statistikportale,Biodiversitätsdaten
+source-100,OpenStreetMap,https://www.openstreetmap.org/,6. Internationale Organisationen und Statistikportale,Globale Geodaten und Einrichtungen

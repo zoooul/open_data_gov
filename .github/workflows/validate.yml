@@ -1,0 +1,19 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -r requirements-validation.txt
+      - run: python scripts/validate_verified_directories.py
+      - run: python scripts/validate_education.py
+      - run: python scripts/build_dataset_index.py --check
+      - run: python -m unittest discover -s tests -v

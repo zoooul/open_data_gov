@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open Data Portal Directory",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "title",
+    "source_document",
+    "compiled_at",
+    "count",
+    "portals"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "source_document": {
+      "type": "string"
+    },
+    "compiled_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "method": {
+      "type": "string"
+    },
+    "fields_note": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "portals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "url",
+          "category",
+          "context",
+          "license",
+          "api",
+          "access",
+          "last_checked"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "category": {
+            "type": "string"
+          },
+          "context": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "api": {
+            "type": "string"
+          },
+          "access": {
+            "type": "string"
+          },
+          "last_checked": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

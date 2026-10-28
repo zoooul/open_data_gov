@@ -1,0 +1,744 @@
+{
+ "schema_version": "1.0.0",
+ "probed_at": "2026-10-28",
+ "description": "Measured download probes of the six candidate datasets. Raw record counts and field fill rates, before deduplication or quality review. Not an import and not launch approval.",
+ "results": [
+  {
+   "project_id": "bathing-waters-de",
+   "url": "https://sdi.eea.europa.eu/datashare/s/sptXqwkQr5g7Bp5/download?path=/eea_t_bathing-water-status_p_1990-2025_v01_r00&files=bw_assessment_eea_datahub_1990_2025.xlsx",
+   "http_status": 200,
+   "bytes": 43096327,
+   "format": "xlsx",
+   "id_field": "bathingWaterIdentifier",
+   "filter": {
+    "countryCode": "DE",
+    "season": "2025"
+   },
+   "record_count": 2291,
+   "unique_id_count": 2291,
+   "columns": [
+    {
+     "name": "countryCode",
+     "filled_share": 1.0
+    },
+    {
+     "name": "bathingWaterIdentifier",
+     "filled_share": 1.0
+    },
+    {
+     "name": "groupIdentifier",
+     "filled_share": 0.013
+    },
+    {
+     "name": "bathingWaterName",
+     "filled_share": 1.0
+    },
+    {
+     "name": "bathingWaterType",
+     "filled_share": 1.0
+    },
+    {
+     "name": "geographicalConstraint",
+     "filled_share": 1.0
+    },
+    {
+     "name": "lon",
+     "filled_share": 1.0
+    },
+    {
+     "name": "lat",
+     "filled_share": 1.0
+    },
+    {
+     "name": "bwProfile",
+     "filled_share": 1.0
+    },
+    {
+     "name": "season",
+     "filled_share": 1.0
+    },
+    {
+     "name": "quality",
+     "filled_share": 1.0
+    },
+    {
+     "name": "monitoringCalendar",
+     "filled_share": 1.0
+    },
+    {
+     "name": "management",
+     "filled_share": 1.0
+    }
+   ]
+  },
+  {
+   "project_id": "museums-fr",
+   "url": "https://ministere-culture.s3.sbg.io.cloud.ovh.net/POP/museofile.csv",
+   "http_status": 200,
+   "bytes": 3367329,
+   "format": "csv",
+   "id_field": "Identifiant",
+   "filter": {},
+   "record_count": 1216,
+   "unique_id_count": 1216,
+   "columns": [
+    {
+     "name": "Identifiant",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Nom_officiel",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Adresse",
+     "filled_share": 0.976
+    },
+    {
+     "name": "Lieu",
+     "filled_share": 0.392
+    },
+    {
+     "name": "Code_postal",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Ville",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Departement",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Region",
+     "filled_share": 1.0
+    },
+    {
+     "name": "URL",
+     "filled_share": 0.928
+    },
+    {
+     "name": "Telephone",
+     "filled_share": 0.976
+    },
+    {
+     "name": "Categorie",
+     "filled_share": 0.453
+    },
+    {
+     "name": "Domaine_thematique",
+     "filled_share": 0.963
+    },
+    {
+     "name": "Histoire",
+     "filled_share": 0.959
+    },
+    {
+     "name": "Atout",
+     "filled_share": 0.943
+    },
+    {
+     "name": "Themes",
+     "filled_share": 0.881
+    },
+    {
+     "name": "Artiste",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Personnage_phare",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Interet",
+     "filled_share": 0.778
+    },
+    {
+     "name": "Protection_batiment",
+     "filled_share": 0.402
+    },
+    {
+     "name": "Protection_espace",
+     "filled_share": 0.635
+    },
+    {
+     "name": "Refmer",
+     "filled_share": 0.637
+    },
+    {
+     "name": "Date_de_mise_a_jour",
+     "filled_share": 0.999
+    },
+    {
+     "name": "Coordonnees",
+     "filled_share": 0.999
+    },
+    {
+     "name": "Date_arrete_attribution_appellation",
+     "filled_share": 0.999
+    }
+   ]
+  },
+  {
+   "project_id": "schools-nrw",
+   "url": "https://www.schulministerium.nrw.de/BiPo/OpenData/Schuldaten/schuldaten.csv",
+   "http_status": 200,
+   "bytes": 1789546,
+   "format": "csv",
+   "id_field": "Schulnummer",
+   "filter": {},
+   "record_count": 5645,
+   "unique_id_count": 5645,
+   "columns": [
+    {
+     "name": "Schulnummer",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Schulform",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Schulbezeichnung_1",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Schulbezeichnung_2",
+     "filled_share": 0.86
+    },
+    {
+     "name": "Schulbezeichnung_3",
+     "filled_share": 0.454
+    },
+    {
+     "name": "Kurzbezeichnung",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Bezirksregierung",
+     "filled_share": 1.0
+    },
+    {
+     "name": "PLZ",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Ort",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Strasse",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Telefonvorwahl",
+     "filled_share": 0.999
+    },
+    {
+     "name": "Telefon",
+     "filled_share": 0.999
+    },
+    {
+     "name": "Faxvorwahl",
+     "filled_share": 0.926
+    },
+    {
+     "name": "Fax",
+     "filled_share": 0.926
+    },
+    {
+     "name": "E-Mail",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Homepage",
+     "filled_share": 0.964
+    },
+    {
+     "name": "Rechtsform",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Traegernummer",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Gemeindeschluessel",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Schulbetriebsschluessel",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Schulbetriebsdatum",
+     "filled_share": 1.0
+    },
+    {
+     "name": "EPSG",
+     "filled_share": 1.0
+    },
+    {
+     "name": "UTMRechtswert",
+     "filled_share": 1.0
+    },
+    {
+     "name": "UTMHochwert",
+     "filled_share": 1.0
+    }
+   ]
+  },
+  {
+   "project_id": "food-hygiene-westminster",
+   "url": "https://ratings.food.gov.uk/api/open-data-files/FHRS533en-GB.xml",
+   "http_status": 200,
+   "bytes": 5737546,
+   "format": "xml",
+   "id_field": "FHRSID",
+   "filter": {},
+   "record_count": 5779,
+   "unique_id_count": 5779,
+   "columns": [
+    {
+     "name": "FHRSID",
+     "filled_share": 1.0
+    },
+    {
+     "name": "LocalAuthorityBusinessID",
+     "filled_share": 1.0
+    },
+    {
+     "name": "BusinessName",
+     "filled_share": 1.0
+    },
+    {
+     "name": "BusinessType",
+     "filled_share": 1.0
+    },
+    {
+     "name": "BusinessTypeID",
+     "filled_share": 1.0
+    },
+    {
+     "name": "AddressLine1",
+     "filled_share": 0.968
+    },
+    {
+     "name": "AddressLine2",
+     "filled_share": 0.043
+    },
+    {
+     "name": "AddressLine3",
+     "filled_share": 0.967
+    },
+    {
+     "name": "PostCode",
+     "filled_share": 0.957
+    },
+    {
+     "name": "RatingValue",
+     "filled_share": 1.0
+    },
+    {
+     "name": "RatingKey",
+     "filled_share": 1.0
+    },
+    {
+     "name": "RatingDate",
+     "filled_share": 0.921
+    },
+    {
+     "name": "LocalAuthorityCode",
+     "filled_share": 1.0
+    },
+    {
+     "name": "LocalAuthorityName",
+     "filled_share": 1.0
+    },
+    {
+     "name": "LocalAuthorityWebSite",
+     "filled_share": 1.0
+    },
+    {
+     "name": "LocalAuthorityEmailAddress",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Scores.Hygiene",
+     "filled_share": 0.892
+    },
+    {
+     "name": "Scores.Structural",
+     "filled_share": 0.892
+    },
+    {
+     "name": "Scores.ConfidenceInManagement",
+     "filled_share": 0.892
+    },
+    {
+     "name": "SchemeType",
+     "filled_share": 1.0
+    },
+    {
+     "name": "NewRatingPending",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Geocode.Longitude",
+     "filled_share": 0.915
+    },
+    {
+     "name": "Geocode.Latitude",
+     "filled_share": 0.915
+    },
+    {
+     "name": "AddressLine4",
+     "filled_share": 0.006
+    },
+    {
+     "name": "RightToReply",
+     "filled_share": 0.0
+    }
+   ]
+  },
+  {
+   "project_id": "research-organisations-de",
+   "url": "https://api.ror.org/v2/organizations?filter=country.country_code:DE",
+   "http_status": 200,
+   "bytes": 21668,
+   "format": "json",
+   "id_field": "id",
+   "filter": {},
+   "record_count": 5878,
+   "unique_id_count": null,
+   "columns": [],
+   "note": "API result count only; use the CC0 data dump for a full snapshot."
+  },
+  {
+   "project_id": "historic-monuments-fr",
+   "url": "https://ministere-culture.s3.sbg.io.cloud.ovh.net/POP/merimee.csv",
+   "http_status": 200,
+   "bytes": 100166233,
+   "format": "csv",
+   "id_field": "Reference",
+   "filter": {},
+   "record_count": 46761,
+   "unique_id_count": 46761,
+   "columns": [
+    {
+     "name": "Reference",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Destination_actuelle_de_l_edifice",
+     "filled_share": 0.038
+    },
+    {
+     "name": "Adresse_forme_index",
+     "filled_share": 0.397
+    },
+    {
+     "name": "Etablissement_affectataire_de_l_edifice",
+     "filled_share": 0.039
+    },
+    {
+     "name": "Autre_appellation_de_l_edifice",
+     "filled_share": 0.018
+    },
+    {
+     "name": "Nature_de_la_protection",
+     "filled_share": 0.992
+    },
+    {
+     "name": "Auteur_de_l_edifice",
+     "filled_share": 0.135
+    },
+    {
+     "name": "Cadastre",
+     "filled_share": 0.646
+    },
+    {
+     "name": "Commune_forme_index",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Copyright",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Type_de_couverture",
+     "filled_share": 0.001
+    },
+    {
+     "name": "Datation_de_l_edifice",
+     "filled_share": 0.241
+    },
+    {
+     "name": "Denomination_de_l_edifice",
+     "filled_share": 0.997
+    },
+    {
+     "name": "Lieu_de_conservation_d_un_element_architectural_deplace",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Description_de_l_edifice",
+     "filled_share": 0.02
+    },
+    {
+     "name": "Dimensions_normalisees_des_edicules_uniquement",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Date_de_Label",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Date_de_la_derniere_mise_a_jour",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Date_de_creation_de_la_notice",
+     "filled_share": 0.997
+    },
+    {
+     "name": "Domaine",
+     "filled_share": 0.963
+    },
+    {
+     "name": "Typologie_du_dossier",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Date_et_typologie_de_la_protection",
+     "filled_share": 0.99
+    },
+    {
+     "name": "Departement_format_numerique",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Departement_en_lettres",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Partie_d_elevation_exterieure",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Source_de_l_energie_utilisee_par_l_edifice",
+     "filled_share": 0.007
+    },
+    {
+     "name": "Emplacement__forme_et_structure_de_l_escalier",
+     "filled_share": 0.005
+    },
+    {
+     "name": "Description_de_l_elevation_interieure",
+     "filled_share": 0.0
+    },
+    {
+     "name": "etat_de_conservation",
+     "filled_share": 0.054
+    },
+    {
+     "name": "Cadre_de_l_etude",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Genre_du_destinataire",
+     "filled_share": 0.041
+    },
+    {
+     "name": "Historique",
+     "filled_share": 0.531
+    },
+    {
+     "name": "Nom_du_cours_d_eau_traversant_ou_bordant_l_edifice",
+     "filled_share": 0.014
+    },
+    {
+     "name": "Identifiant_Agregee",
+     "filled_share": 0.97
+    },
+    {
+     "name": "COG_Insee_lors_de_la_protection",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Justification_attribution",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Justification_de_la_datation",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Liens_externes",
+     "filled_share": 0.212
+    },
+    {
+     "name": "Lieudit",
+     "filled_share": 0.118
+    },
+    {
+     "name": "Lien_vers_la_base_Archiv_MH",
+     "filled_share": 0.982
+    },
+    {
+     "name": "Materiaux_du_gros_oeuvre",
+     "filled_share": 0.004
+    },
+    {
+     "name": "Nom_du_redacteur",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Observations",
+     "filled_share": 0.259
+    },
+    {
+     "name": "Precision_affectataire",
+     "filled_share": 0.009
+    },
+    {
+     "name": "Partie_constituante_non_etudiee",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Partie_constituante",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Precision_sur_la_denomination",
+     "filled_share": 0.02
+    },
+    {
+     "name": "Personnes_liees_a_l_edifice",
+     "filled_share": 0.023
+    },
+    {
+     "name": "Typologie_de_plan",
+     "filled_share": 0.005
+    },
+    {
+     "name": "Precision_de_la_localisation",
+     "filled_share": 0.718
+    },
+    {
+     "name": "Precision_de_la_protection",
+     "filled_share": 0.998
+    },
+    {
+     "name": "Description_de_l_iconographie",
+     "filled_share": 0.003
+    },
+    {
+     "name": "Typologie_de_la_protection",
+     "filled_share": 0.99
+    },
+    {
+     "name": "Precision_sur_le_statut_de_l_edifice",
+     "filled_share": 0.072
+    },
+    {
+     "name": "Reference_a_un_ensemble",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Lien_vers_la_base_Joconde",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Lien_vers_la_base_Palissy",
+     "filled_share": 0.214
+    },
+    {
+     "name": "References_des_parties_constituantes_etudiees",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Region",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Elements_remarquables_dans_l_edifice",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Remploi",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Renvoi_vers_une_notice_de_la_base_Merimee_ou_Palissy",
+     "filled_share": 0.16
+    },
+    {
+     "name": "Indexation_iconographique_normalisee",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Siecle_de_campagne_secondaire_de_construction",
+     "filled_share": 0.041
+    },
+    {
+     "name": "Siecle_de_la_campagne_principale_de_construction",
+     "filled_share": 0.849
+    },
+    {
+     "name": "Format_abrege_du_siecle_de_construction",
+     "filled_share": 0.844
+    },
+    {
+     "name": "Typologie_de_la_zone_de_protection",
+     "filled_share": 0.077
+    },
+    {
+     "name": "Statut_juridique_de_l_edifice",
+     "filled_share": 0.966
+    },
+    {
+     "name": "Technique_du_decor_porte_de_l_edifice",
+     "filled_share": 0.234
+    },
+    {
+     "name": "Titre_editorial_de_la_notice",
+     "filled_share": 1.0
+    },
+    {
+     "name": "Materiaux_de_la_couverture",
+     "filled_share": 0.002
+    },
+    {
+     "name": "Couverts_ou_decouverts_du_jardin_de_l_edifice",
+     "filled_share": 0.001
+    },
+    {
+     "name": "Vocable___pour_les_edifices_cultuels",
+     "filled_share": 0.0
+    },
+    {
+     "name": "Typologie_du_couvrement",
+     "filled_share": 0.001
+    },
+    {
+     "name": "Adresse_forme_editoriale",
+     "filled_share": 0.392
+    },
+    {
+     "name": "Commune_forme_editoriale",
+     "filled_share": 1.0
+    },
+    {
+     "name": "coordonnees_au_format_WGS84",
+     "filled_share": 0.952
+    },
+    {
+     "name": "Producteur",
+     "filled_share": 0.0
+    }
+   ]
+  }
+ ]
+}

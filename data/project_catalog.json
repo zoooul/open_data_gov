@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0.0",
+  "compiled_at": "2026-10-23",
+  "count": 6,
+  "description": "Current source-stock-supported directory candidates. Historical ideas are not current recommendations. No candidate has launch approval.",
+  "authoritative_selection": "data/verified_directory_projects.json",
+  "catalogs": [
+    {"path": "data/verified_directory_projects.json", "count": 6, "project_ids": ["bathing-waters-de", "museums-fr", "schools-nrw", "food-hygiene-westminster", "research-organisations-de", "historic-monuments-fr"], "priority_scope": "current_editorial_mvp_shortlist_source_stock_only"}
+  ],
+  "research_archive": [
+    {"path": "data/project_priorities.json", "count": 10, "status": "historical_not_currently_recommended"},
+    {"path": "data/esotericism_projects.json", "count": 6, "status": "historical_not_currently_recommended"},
+    {"path": "data/psychotherapy_projects.json", "count": 4, "status": "historical_not_currently_recommended"}
+  ],
+  "pending_work": [
+    "Full imports, field completeness, scope reconciliation and qualified-entry deduplication for every candidate.",
+    "Search demand and actual monetization validation; no volume or revenue forecasts measured.",
+    "Do not expand to 50 by adding uncounted niches or duplicate variants of the same stock."
+  ]
+}

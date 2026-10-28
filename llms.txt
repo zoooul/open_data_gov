@@ -1,0 +1,31 @@
+# Open Data Gov
+
+> Public research repository about open government and research data. Main language German. Contains a portal directory, source profiles with license evidence for several topics, and six directory-project candidates with documented source counts. Not a deployed website, API, data mirror or revenue forecast. Content and data: CC BY 4.0; code: MIT. Third-party datasets keep their own licenses.
+
+## Start here
+
+- [README](README.md): Overview, navigation, license.
+- [Method](docs/METHODIK.md): Evidence rules (unit, scope, period, count basis, license, release stages).
+- [Connections](docs/ZUSAMMENHAENGE.md): License comparison across topics, shared sources, data-file map, lineage from earlier ideas.
+- [Agent rules](AGENTS.md): Evidence and editing requirements.
+
+## Current material
+
+- [Developer guide](docs/ENTWICKLER.md): Direct download links, formats, parsing pitfalls, code.
+- [All datasets, normalized](data/datasets.json) ([CSV](data/datasets.csv)): 34 rows with license_id, commercial_use, access, counts, measured counts. Generated; do not edit by hand.
+- [Measured probes](data/source_probes.json): Rows, unique IDs and field fill rates of the six candidate downloads (2026-10-28).
+
+- [Portal directory](docs/portals/OPEN_DATA_PORTALE.md) and [portals.json](data/portals.json): ~100 open-data portals ([CSV](data/portals.csv)); licenses not verified per portal.
+- [Project manifest](data/project_catalog.json): Entry point for machine-readable project files.
+- [Six source-backed candidates](data/verified_directory_projects.json) and [analysis](docs/strategy/DIRECTORY_PROJECT_PRIORITIES.md).
+- [Commercial hypotheses](docs/strategy/COMMERCIAL_ASSESSMENT.md): Not measured.
+- Topic research: [education/AZAV](docs/education/WEITERBILDUNG_DE_AZAV.md), [psychotherapy/hypnosis](docs/psychotherapy-hypnosis/VERIFIED_DATASETS.md), [esotericism/history](docs/esotericism/VERIFIED_SOURCES.md), [patents/health](docs/patents-health/SOURCES_AND_USE_CASES.md).
+- [Integration architecture](docs/integration/ARCHITECTURE.md): Proposal, not deployed.
+- [Changelog](CHANGELOG.md)
+
+Source stock is not qualified launch stock. All full_import_tested values are false, all qualified_entry_count values null, all launch_ready values false. Do not add counts with different units. France and UK records are not German records. Open licenses do not automatically cover images or third-party content. No search demand or income guarantee. Not legal or medical advice.
+
+## Archive (historical, not current recommendations)
+
+- [Earlier strategy, 20 ideas](docs/archive/DIRECTORY_PROJECT_PRIORITIES_2026-10-22.md) with [project_priorities.json](data/project_priorities.json), [esotericism_projects.json](data/esotericism_projects.json), [psychotherapy_projects.json](data/psychotherapy_projects.json)
+- [Earlier commercial analysis](docs/archive/COMMERCIAL_DATA_OPPORTUNITIES_2026-10-22.md)
